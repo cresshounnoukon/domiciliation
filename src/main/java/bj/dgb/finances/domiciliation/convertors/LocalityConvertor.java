@@ -6,6 +6,7 @@ import bj.dgb.finances.domiciliation.payloads.responses.LocalityResponse;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
+
 @Component
 public class LocalityConvertor {
 
@@ -23,6 +24,7 @@ public class LocalityConvertor {
                 .code(locality.getCode())
                 .name(locality.getName())
                 .uuid(locality.getId())
+                .parent(locality.getParent() != null ? convert(locality.getParent()) : null)
                 .build();
     }
 

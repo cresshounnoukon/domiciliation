@@ -14,6 +14,6 @@ import java.util.UUID;
 public class LocalityResponse {
     private UUID uuid;
     private String code;
-
     private String name;
+    private  LocalityResponse parent;
 }
