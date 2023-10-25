@@ -1,5 +1,7 @@
 package bj.dgb.finances.domiciliation.models.agent;
 
+import bj.dgb.finances.domiciliation.models.embeddable.Address;
+import bj.dgb.finances.domiciliation.models.embeddable.ContactInfo;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 

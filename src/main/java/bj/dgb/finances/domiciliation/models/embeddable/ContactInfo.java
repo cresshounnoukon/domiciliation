@@ -1,4 +1,4 @@
-package bj.dgb.finances.domiciliation.models.agent;
+package bj.dgb.finances.domiciliation.models.embeddable;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

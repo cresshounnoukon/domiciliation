@@ -1,5 +1,6 @@
-package bj.dgb.finances.domiciliation.models.agent;
+package bj.dgb.finances.domiciliation.models.embeddable;
 
+import bj.dgb.finances.domiciliation.models.agent.Locality;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

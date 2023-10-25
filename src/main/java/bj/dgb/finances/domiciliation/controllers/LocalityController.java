@@ -1,6 +1,8 @@
 package bj.dgb.finances.domiciliation.controllers;
 
-import bj.dgb.finances.domiciliation.models.Agent.Locality;
+import bj.dgb.finances.domiciliation.models.agent.Locality;
+import bj.dgb.finances.domiciliation.payloads.requests.LocalityRequest;
+import bj.dgb.finances.domiciliation.payloads.responses.LocalityResponse;
 import bj.dgb.finances.domiciliation.services.LocalityService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -18,7 +20,8 @@ public class LocalityController {
 
     @GetMapping()
     public List<Locality> readAll(){
-        log.info("Getting localities");
+        log.info("Obtention des localities");
+
         return localityService.readAll();
     }
 
@@ -28,8 +31,8 @@ public class LocalityController {
     }
 
     @PostMapping()
-    public Locality create(Locality locality){
-        return null;
+    public LocalityResponse create(@RequestBody  LocalityRequest localityRequest){
+        return localityService.create(localityRequest);
     }
 
     @PutMapping("/update/{id}")
