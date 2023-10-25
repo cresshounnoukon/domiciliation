@@ -58,6 +58,7 @@ public class LocalityService {
         if (parent != null) {
             return readById(parent);
         }
+        return null;
     }
 
     public LocalityResponse update(UUID id, LocalityRequest localityRequest) {
