@@ -1,4 +1,4 @@
-package bj.dgb.finances.domiciliation.models.Agent;
+package bj.dgb.finances.domiciliation.models.agent;
 
 import lombok.*;
 

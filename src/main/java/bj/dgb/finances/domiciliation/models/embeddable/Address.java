@@ -1,4 +1,4 @@
-package bj.dgb.finances.domiciliation.models.Agent;
+package bj.dgb.finances.domiciliation.models.agent;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Builder
 public class Address {
 
-    private String address;
+    private String description;
 
     private Locality locality;
 

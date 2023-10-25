@@ -1,4 +1,4 @@
-package bj.dgb.finances.domiciliation.models.Agent;
+package bj.dgb.finances.domiciliation.models.agent;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class ContactInfo {
-    private String email;
-    private String phone;
+public class Locality {
+
+    private String code;
+
+    private String name;
 }

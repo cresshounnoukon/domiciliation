@@ -1,13 +1,11 @@
-package bj.dgb.finances.domiciliation.models.Agent;
+package bj.dgb.finances.domiciliation.models.agent;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
 
-@Data
+
 @NoArgsConstructor
 @AllArgsConstructor
 public abstract class Person {

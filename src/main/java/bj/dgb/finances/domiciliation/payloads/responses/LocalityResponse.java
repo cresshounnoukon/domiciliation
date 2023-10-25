@@ -1,16 +1,13 @@
-package bj.dgb.finances.domiciliation.models.Agent;
+package bj.dgb.finances.domiciliation.payloads.requests;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
-public class Locality {
-
+public class LocalityRequest {
     private String code;
 
     private String name;
